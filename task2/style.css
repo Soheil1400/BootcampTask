@@ -1,0 +1,72 @@
+*{
+    font-family: "Roboto Light", sans-serif;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #EDF2F8;
+    box-sizing: border-box;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 3px 3px 11px 5px rgba(0,0,0,0.06);
+    text-align: center;
+}
+
+.mainContainer-image-img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.mainContainer-dec{
+    padding: 30px;
+}
+
+.mainContainer-dec-title{
+    margin: 20px 0;
+    color: #353E59;
+}
+
+.mainContainer-dec-dec{
+    color: #B7BAC3;
+}
+
+.mainContainer-dec-player{
+    margin: 20px 0;
+    background-color: #F8F9FE;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.primeButton{
+    width: 100%;
+    box-shadow: none;
+    background-color: #382AE1;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.whiteButton{
+    width: 100%;
+    box-shadow: none;
+    background-color: #fff;
+    color: rgb(183,188,202);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px 0;
+}
